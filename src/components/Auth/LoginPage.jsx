@@ -15,14 +15,14 @@ import {
 
 const LoginPage = () => {
   return (
-    <Stack flexDir={"row"} alignItems={"center"}>
+    <Stack flexDir={"row"} alignItems={"center"} flexWrap={"wrap"}>
       <Box>
         <Image
           src="src/assets/Premium Photo _ Children and parent hands planting young tree on black soil together.jpg"
           borderRadius={"lg"}
         />
       </Box>
-      <Box w={"50%"}>
+      <Box>
         <Grid>
           <GridItem>
             <FormControl>
@@ -33,7 +33,7 @@ const LoginPage = () => {
           <GridItem>
             <FormControl>
               <FormLabel>Password*</FormLabel>
-              <Input type="password" placeholder="JohnDoe" />
+              <Input type="password" placeholder="sgd****" />
             </FormControl>
           </GridItem>
           <Button

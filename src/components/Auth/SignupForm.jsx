@@ -88,7 +88,7 @@ const SignupForm = () => {
               <GridItem colSpan={2}>
                 <FormControl>
                   <FormLabel>Confirm Password</FormLabel>
-                  <Input type="Password" placeholder="fgr****** " />
+                  <Input type="Password" placeholder="sgd****** " />
                 </FormControl>
               </GridItem>
             </Grid>
