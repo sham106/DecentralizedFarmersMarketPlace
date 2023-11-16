@@ -15,14 +15,20 @@ import {
 
 const LoginPage = () => {
   return (
-    <Stack flexDir={"row"} alignItems={"center"} flexWrap={"wrap"}>
+    <Stack
+      flexDir={"row"}
+      alignItems={"center"}
+      justify={"center"}
+      flexWrap={"wrap"}
+      w={"100%"}
+    >
       <Box>
         <Image
           src="src/assets/Premium Photo _ Children and parent hands planting young tree on black soil together.jpg"
           borderRadius={"lg"}
         />
       </Box>
-      <Box>
+      <Box justifyContent={"center"} alignItems={"center"}>
         <Grid>
           <GridItem>
             <FormControl>
