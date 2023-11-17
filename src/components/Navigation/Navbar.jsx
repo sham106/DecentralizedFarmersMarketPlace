@@ -26,13 +26,18 @@ const Navbar = () => {
       url: "/",
     },
     {
+      text: "services",
+      url: "/services",
+    },
+    {
       text: "About",
-      url: "/aboutus",
+      url: "/about",
     },
     {
       text: "Contact",
-      url: "/contact",
+      url: "#Contact",
     },
+
     {
       text: "Login",
       url: "/login",

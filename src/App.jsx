@@ -7,11 +7,10 @@ import Footer from "./components/Navigation/Footer";
 function App() {
   return (
     <>
-      <head>
-        <nav>
-          <Navbar />
-        </nav>
-      </head>
+      <nav>
+        <Navbar />
+      </nav>
+
       <main>
         <section>
           <Hero />

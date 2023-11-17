@@ -6,84 +6,56 @@ import {
   Heading,
   Image,
   Text,
-  Wrap,
 } from "@chakra-ui/react";
 import "./../index.css";
-import VideoPlayer from "./VideoPlayer";
 
 const Hero = () => {
   return (
     <>
-      <Box
-        display={"flex"}
-        alignItems={"center"}
-        justifyContent={"space-evenly"}
-        w={"full"}
-        mt={10}
-      >
-        <Input placeholder="Service" w={"500px"} />
-        <Button color={"green"} variant={"ghost"}>
-          Search
-        </Button>
-      </Box>
-      <Stack
-        w={"full"}
-        h={"full"}
-        m={2}
-        flexDir={"row"}
-        justifyContent={"center"}
-        alignItems={"center"}
-      >
-        <Box w={"50%"} m={3}>
-          <Heading textAlign={"center"} as={"h3"} size={"2xl"}>
-            Seeding Change to bring value across the food system
-          </Heading>
-          <Text textAlign={"center"} mt={3} size={"4xl"}>
-            Get to know the field in seconds and take informed decisions with
-            AgriTek solutions.To make farming,marketing and interaction simple
-            we intergrate services for you and the public at the palm of your
-            hands.
-          </Text>
-        </Box>
-        <Box w={"50%"}>
-          <Image
-            src="src/assets/hero.jpg"
-            borderRadius={"md"}
-            objectFit={"contain"}
-          />
-        </Box>
-      </Stack>
-      <Box></Box>
-      <Box
-        w={"full"}
-        background={"#121712"}
-        h={"20vh"}
-        display={"flex"}
-        opacity={"90%"}
-        borderRadius={"5px"}
-        flexDir={"row"}
-        justifyContent={"space-evenly"}
-        alignItems={"center"}
-      >
-        <Box display={"flex"} flexDir={"column"}>
-          <Image src="src/assets/carrots-carrot-svgrepo-com.svg" w={"100px"} />
-          <Text color={"green"}>Rift-Valley region</Text>
-        </Box>
-        <Box>
-          <Image src="src/assets/cow-svgrepo-com.svg" w={"100px"} />
-          <Text color={"green"}>Kiambu highlands</Text>
-        </Box>
-        <Box>
-          <Image
-            src="src/assets/harvest-bag-of-cereal-svgrepo-com.svg"
-            w={"100px"}
-          />
-          <Text color={"green"}>Laikipia</Text>
-        </Box>
-      </Box>
-      <Box>
-        <VideoPlayer />
-      </Box>
+      <div className="hero">
+        <Stack
+          m={2}
+          w={"full"}
+          height={"100%"}
+          flexDir={{ base: "column", md: "row" }}
+          flexWrap={"wrap"}
+        >
+          <Box
+            m={{ base: 3, md: 6 }}
+            w={{ base: "100%", md: "50%" }}
+            display={"flex"}
+            justifyContent={{ base: "center", md: "flex-start" }}
+            flexDir={"column"}
+            textAlign={{ base: "center", md: "left" }}
+          >
+            <Heading
+              as={"h1"}
+              size={{ base: "2xl", md: "4xl" }}
+              mt={{ base: 4, md: 50 }}
+              color={"white"}
+            >
+              Seeding Chan<span className="letter">ge</span> to bring v
+              <span className="letter">alue</span>a
+              <span className="letter">cross the</span>food sy
+              <span className="letter">stem</span>
+            </Heading>
+            <Text
+              mt={{ base: 4, md: 6 }}
+              fontSize={{ base: "md", md: "xl" }}
+              color={"white"}
+            >
+              Get to know the field in seconds and take informed decisions with
+              AgriTek solutions. To make farming, marketing, and interaction
+              simple, we integrate services for you and the public at the palm
+              of your hands.
+            </Text>
+
+            <Button variant={"outline"} color={"green"} mt={{ base: 4, md: 6 }}>
+              Learn More
+            </Button>
+          </Box>
+        </Stack>
+      </div>
     </>
   );
 };

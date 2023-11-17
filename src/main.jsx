@@ -8,12 +8,19 @@ import { ChakraProvider } from "@chakra-ui/react";
 import Signup from "./pages/Authentication/Signup.jsx";
 import Login from "./pages/Authentication/Login.jsx";
 import About from "./pages/About.jsx";
+import Admin from "./components/Auth/Admin.jsx";
+import Services from "./pages/Services.jsx";
+import Chat from "./Chat.jsx";
 // import Chat from "./Chat.jsx";
 
 const paths = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+  },
+  {
+    path: "/admin",
+    element: <Admin />,
   },
   {
     path: "/signup",
@@ -27,10 +34,14 @@ const paths = createBrowserRouter([
     path: "/about",
     element: <About />,
   },
-  // {
-  //   path: "/chat",
-  //   element: <Chat />,
-  // },
+  {
+    path: "/services",
+    element: <Services />,
+  },
+  {
+    path: "/chat",
+    element: <Chat/>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

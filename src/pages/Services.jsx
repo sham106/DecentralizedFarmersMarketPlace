@@ -1,12 +1,14 @@
-import Footer from "../components/Navigation/Footer";
+import React from "react";
 import Navbar from "../components/Navigation/Navbar";
+import Footer from "../components/Navigation/Footer";
 
-const About = () => {
+const Services = () => {
   return (
     <>
       <nav>
         <Navbar />
       </nav>
+      <div>Services</div>
       <footer>
         <Footer />
       </footer>
@@ -14,4 +16,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Services;

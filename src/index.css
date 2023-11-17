@@ -30,3 +30,31 @@
   height: 1px;
   background: #eee;
 }
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  background-image: url(src/assets/hero.png);
+  background-size: cover;
+}
+.letter {
+  color: #4dc217;
+}
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
