@@ -27,8 +27,9 @@ const Hero = () => {
               color={"white"}
             >
               Seeding Chan<span className="letter">ge</span> to bring v
-              <span className="letter">alue</span>a
-              <span className="letter">cross the</span>food sy
+              <span className="letter">alue</span> a
+              <span className="letter">cross the</span>{" "}
+              <span className="letter">food</span> sy
               <span className="letter">stem</span>
             </Heading>
             <Text

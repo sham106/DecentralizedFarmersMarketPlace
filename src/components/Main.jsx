@@ -193,9 +193,11 @@ const Main = () => {
               mission is to bridge the gap, ensure fair trade, and cultivate a
               healthier, more connected world.
             </Text>
-            <Button colorScheme="green" size="lg" variant={"outline"}>
-              View More
-            </Button>
+            <Link to={"/about"}>
+              <Button colorScheme="green" size="lg" variant={"outline"}>
+                View More
+              </Button>
+            </Link>
           </Box>
           <Box>
             <Image

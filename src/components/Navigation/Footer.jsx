@@ -1,5 +1,3 @@
-
-
 import { Box, Flex, Link, Text, IconButton, Image } from "@chakra-ui/react";
 import { FaEnvelope, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 
@@ -24,7 +22,7 @@ const Footer = () => {
               m={3}
             />
           </Link>
-          &copy;{" "}
+          &copy;2023
         </Text>
         <Flex>
           <Link

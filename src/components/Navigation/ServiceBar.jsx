@@ -1,16 +1,12 @@
-import { Box, Flex, HStack, Link, Image, Input } from "@chakra-ui/react";
-import Logo from "../../assets/AgriTek.png";
+import { Box, Flex, HStack, Link, Input } from "@chakra-ui/react";
 
 const ServiceBar = () => {
   const links = [
     {
-      text: "Buy",
-      url: "#buy",
+      text: "Cart",
+      url: "/cart",
     },
-    {
-      Text: "Sell",
-      url: "#sell",
-    },
+
     {
       Text: "Chat",
       url: "/chat",

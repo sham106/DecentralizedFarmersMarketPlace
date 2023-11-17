@@ -26,7 +26,7 @@ const Navbar = () => {
       url: "/",
     },
     {
-      text: "services",
+      text: "Products",
       url: "/services",
     },
     {

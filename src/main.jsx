@@ -11,6 +11,8 @@ import About from "./pages/About.jsx";
 import Admin from "./components/Auth/Admin.jsx";
 import Services from "./pages/Services.jsx";
 import Chat from "./Chat.jsx";
+import Cart from "./Cart.jsx";
+import Payment from "./components/Payment.jsx";
 // import Chat from "./Chat.jsx";
 
 const paths = createBrowserRouter([
@@ -40,8 +42,16 @@ const paths = createBrowserRouter([
   },
   {
     path: "/chat",
-    element: <Chat/>
-  }
+    element: <Chat />,
+  },
+  {
+    path: "/cart",
+    element: <Cart />,
+  },
+  {
+    path: "/payment",
+    element: <Payment />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
