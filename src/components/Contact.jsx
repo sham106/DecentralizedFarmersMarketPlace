@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { Box, Heading, Text, Input, Button, VStack } from "@chakra-ui/react";
 
@@ -11,7 +10,7 @@ const ContactPage = () => {
     >
       <Box p={8} textAlign="center">
         <Heading mb={4}>Contact Us</Heading>
-        <Text mb={8}>We'd love to hear from you! Drop us a message below:</Text>
+        <Text mb={8}>We`d love to hear from you! Drop us a message below:</Text>
         <VStack spacing={4} align="stretch">
           <Input type="text" placeholder="Your Name" />
           <Input type="email" placeholder="Your Email" />

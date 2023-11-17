@@ -1,10 +1,7 @@
 import {
-  Heading,
-  Text,
-  VStack,
   Box,
   Stack,
-  Flex,
+
   Button,
   Input,
   Image,

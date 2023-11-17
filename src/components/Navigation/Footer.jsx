@@ -1,4 +1,5 @@
-import React from "react";
+
+
 import { Box, Flex, Link, Text, IconButton, Image } from "@chakra-ui/react";
 import { FaEnvelope, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 

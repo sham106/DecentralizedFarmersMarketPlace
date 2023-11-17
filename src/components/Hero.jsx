@@ -1,10 +1,10 @@
 import {
   Box,
-  Input,
+
   Button,
   Stack,
   Heading,
-  Image,
+ 
   Text,
 } from "@chakra-ui/react";
 import "./../index.css";

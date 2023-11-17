@@ -1,4 +1,4 @@
-import { Box, Input, Button } from "@chakra-ui/react";
+import { Input, Button } from "@chakra-ui/react";
 
 const InputField = () => {
   return (
