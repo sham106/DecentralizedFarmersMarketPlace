@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react";
+import { useState } from "react";
 import { Box, Input, Button, VStack } from "@chakra-ui/react";
 import Navbar from "./components/Navigation/Navbar";
 import Footer from "./components/Navigation/Footer";
+import ContactPage from "./components/Contact";
 
 const Chat = ({ onSendMessage }) => {
   const [message, setMessage] = useState("");
@@ -52,6 +53,9 @@ const Chat = ({ onSendMessage }) => {
             Send
           </Button>
         </VStack>
+      </Box>
+      <Box>
+        <ContactPage />
       </Box>
       <footer>
         <Footer />

@@ -1,12 +1,4 @@
-import {
-  Box,
-
-  Button,
-  Stack,
-  Heading,
- 
-  Text,
-} from "@chakra-ui/react";
+import { Box, Button, Stack, Heading, Link, Text } from "@chakra-ui/react";
 import "./../index.css";
 
 const Hero = () => {
@@ -50,9 +42,17 @@ const Hero = () => {
               of your hands.
             </Text>
 
-            <Button variant={"outline"} color={"green"} mt={{ base: 4, md: 6 }}>
-              Learn More
-            </Button>
+            <Link href="/about">
+              <Button
+                variant={"outline"}
+                color={"green"}
+                mt={{ base: 4, md: 6 }}
+                ml={{ base: 4, md: 6 }}
+                w={"300px"}
+              >
+                Learn More
+              </Button>
+            </Link>
           </Box>
         </Stack>
       </div>

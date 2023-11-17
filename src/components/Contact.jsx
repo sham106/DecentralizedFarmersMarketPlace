@@ -1,5 +1,13 @@
 import { motion } from "framer-motion";
-import { Box, Heading, Text, Input, Button, VStack } from "@chakra-ui/react";
+import {
+  Box,
+  Heading,
+  Text,
+  Input,
+  Button,
+  VStack,
+  Textarea,
+} from "@chakra-ui/react";
 
 const ContactPage = () => {
   return (
@@ -14,7 +22,8 @@ const ContactPage = () => {
         <VStack spacing={4} align="stretch">
           <Input type="text" placeholder="Your Name" />
           <Input type="email" placeholder="Your Email" />
-          <Input type="textarea" placeholder="Your Message" rows={4} />
+          <Input type="email" placeholder="Location" />
+          <Textarea type="textarea" placeholder="Your Message" rows={6} />
           <Button colorScheme="green" size="lg">
             Send Message
           </Button>

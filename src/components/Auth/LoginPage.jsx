@@ -5,7 +5,6 @@ import {
   Heading,
   Grid,
   GridItem,
-  SimpleGrid,
   Button,
   Input,
   FormLabel,
@@ -79,7 +78,7 @@ const LoginPage = () => {
             </Box>
 
             <Text>
-              Don't have an account?{" "}
+              Don`t have an account?{" "}
               <span>
                 <a href="/signup">Signup</a>
               </span>

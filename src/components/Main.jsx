@@ -1,6 +1,5 @@
 import {
   Card,
-  CardHeader,
   CardBody,
   CardFooter,
   Image,
@@ -42,7 +41,7 @@ const Main = () => {
                   food you consume.
                 </Text>
                 <Text color="blue.600" fontSize="2xl">
-                  ......
+                  Negotiate with Us
                 </Text>
               </Stack>
             </CardBody>
@@ -115,7 +114,7 @@ const Main = () => {
                 <Heading size="md">Buy/Sell produce</Heading>
                 <Text>
                   do you want to sell harvest directly to consumers? Or perhaps
-                  you're a consumer wanting to connect with local farmers and
+                  you`re a consumer wanting to connect with local farmers and
                   access fresh, quality produce? Buy and sell at convenient
                   prices.
                 </Text>
@@ -188,7 +187,7 @@ const Main = () => {
               About Us
             </Text>
             <Text mb={6} fontSize={{ base: "sm", md: "md" }}>
-              AgriTek is more than a marketplace; it's a movement towards a
+              AgriTek is more than a marketplace; it`s a movement towards a
               sustainable future. We empower small-scale farmers in arid and
               semi-arid regions, connecting them with global markets. Our
               mission is to bridge the gap, ensure fair trade, and cultivate a
